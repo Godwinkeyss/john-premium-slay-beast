@@ -760,6 +760,7 @@ footer .help-icons{
     width: 600px;
     height: 700px;
     object-fit: cover;
+    cursor: pointer;
 }
 .single-right{
     flex: 1;
@@ -843,7 +844,7 @@ footer .help-icons{
     display: flex;
     flex-wrap: wrap;
     padding: 40px 10%;
-    
+    cursor: pointer;
     gap: 20px;
     
 }
@@ -851,6 +852,7 @@ footer .help-icons{
     width: 590px;
    height: 700px;
    object-fit: cover;
+   cursor: pointer;
 }
 .related-product{
     padding: 30px 10%;
@@ -875,6 +877,52 @@ footer .help-icons{
     font-size: 20px;
     letter-spacing: .5px;
     color: var(--text-color)
+}
+
+
+/* ================login page start ================================================ */
+
+.login form{
+    flex-direction: column;
+   width: 500px; 
+}
+.login form input{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 8px 20px;
+    border: 1px solid var(--main-color);
+}
+.login p{
+    font-size: 14px;
+    position: relative;
+    color:var(--text-color)
+}
+.login a{
+    color:var(--text-color)  ;
+}
+.login div{
+    position: absolute;
+    margin-top: -20px;
+    
+    color: var(--main-color) !important;
+}
+.login form button{
+    text-align: center;
+    padding: 10px 40px;
+    margin-left: 200px;
+    background: var(--main-color);
+    color:#fff;
+    border: none;
+    margin-top: 20px;
+}
+.underline{
+    
+
+}
+.login form .create{
+    margin-left: 40px;
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
 }
 /* ==============================mobile screen======================================================== */
 
@@ -1585,6 +1633,18 @@ footer .help-icons{
     font-size: 16px;
     letter-spacing: .5px;
     color: var(--text-color)
+}
+.login form{
+    width: 300px;
+}
+.login form button{
+    margin: unset;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+.login .create{
+    margin: unset;
+    margin-right:50px ;
 }
  }
 /* ======================================TABLET SCREEEN=================================== */
